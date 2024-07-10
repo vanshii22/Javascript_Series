@@ -10,3 +10,4 @@ console.table([accountId,accountEmail,accountName,accountCity]);
 accountName="Vanshi Sharma";
 let accountHolder;
 console.log(accountHolder);
+// Prefer not to use var because of issue in slope scope and functional scope
