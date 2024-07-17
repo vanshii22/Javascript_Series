@@ -67,7 +67,7 @@ const coding=["js","ruby","python"]
 // console.log(nums);
 
 
-// Reduce Function
+// Reduce Function-Calls the specified callback function for all the elements in an array. The return value of the callback function is the accumulated result, and is provided as an argument in the next call to the callback function.
 const nums=[1,2,3]
 const total=nums.reduce((acc,num)=>acc+num,0)
 console.log(total);
